@@ -134,7 +134,34 @@ body{
     margin-top: 2.5rem;
 }
 
+/* main-parner */
 
+.main-partner .container{
+    height: 500px;
+}
+
+.partner{
+    margin-top: 4rem;
+}
+
+.debug .img-area{
+    height: 450px;
+    background-color: aqua;
+}
+
+.img-area{
+    width: 450px;
+}
+
+.debug .text-area{
+    height: 250px;
+    background-color: darksalmon;
+}
+
+.text-area{
+    margin-left: 21px;
+    width: 400px;
+}
 
 
 
