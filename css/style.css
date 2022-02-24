@@ -185,4 +185,63 @@ body{
     background-color: cadetblue;
 }
 
+/* buisness */
+
+.debug .buisness-title{
+    height: 100px;
+    background-color: rgb(226, 43, 195);
+}
+
+.buisness-title{
+    width: 400px;
+}
+
+.debug .box{
+    background-color: firebrick;
+    height: 506px;
+}
+
+.box{
+    width: 100%;
+}
+
+.debug .img-4{
+    background-color: blue;
+    height: 506px;
+}
+
+.img-4{
+    width: 30%;
+}
+
+.debug .designit, .debug .asu, .debug .uf,.debug .topps{
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.designit, .asu, .uf, .topps{
+    width: 50%;
+    height: 50%;
+}
+
+.debug .box-text{
+    height: 506px;
+    background-color: crimson;
+}
+
+.box-text{
+    width: 40%;
+}
+
+.debug .box-title{
+    background-color: darkcyan;
+    height: 100px;
+}
+
+.box-title{
+    width: 100%;
+}
+
+
+
 /********FOOTER **********/
