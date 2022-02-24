@@ -36,17 +36,21 @@ body{
 
 .debug .container{
     background-color: #8a2be291;
-    height: 850px;
 }
 .container{
     margin: 0 20%;
 }
 
-.debug .col-30{
-    height: 600px;
-}
 .col-30{
     width: 30%;
+}
+
+.m-5{
+    margin: 0 5%;
+}
+
+.m-t{
+    margin-top: 3rem;
 }
 
 /********* HEADER **********/
@@ -119,10 +123,7 @@ body{
 
 .debug .professional, .debug .standard, .debug .advanced{
     background-color: brown;
-}
-
-.standard{
-    margin: 0 2.85rem;
+    height: 600px;
 }
 
 .debug .enterprise{
@@ -163,7 +164,25 @@ body{
     width: 400px;
 }
 
+/* operations */
 
+.debug .text-operation{
+    height: 70px;
+    background-color: rgb(32, 83, 124);
+}
 
+.text-operation{
+    width: 100%;
+}
+
+.debug .top-img{
+    height: 300px;
+    background-color: darkgoldenrod;
+}
+
+.debug .bot-text{
+    height: 300px;
+    background-color: cadetblue;
+}
 
 /********FOOTER **********/
