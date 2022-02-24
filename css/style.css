@@ -198,7 +198,6 @@ body{
 
 .debug .box{
     background-color: firebrick;
-    height: 506px;
 }
 
 .box{
@@ -242,6 +241,48 @@ body{
     width: 100%;
 }
 
+.debug .box-bot{
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+.box-bot{
+    width: 100%;
+}
+
+.debug .box-bot-title{
+    background-color: darkseagreen;
+    height: 250px;
+}
+
+.box-bot-title{
+    width: 80%;
+    margin: 30px 15%;
+}
+
+/* questions */
+
+.questions .container{
+    margin-left: 15%;
+}
+
+.debug .requests{
+    background-color: blanchedalmond;
+    height: 100px;
+}
+
+.requests{
+    width: 400px;
+}
+
+.debug .question{
+    height: 400px;
+    background-color: chocolate;
+}
+
+.question{
+    width: 100%;
+}
 
 
 /********FOOTER **********/
