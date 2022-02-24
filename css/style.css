@@ -28,11 +28,25 @@ body{
 
 .debug .wrapper{
     height: 640px;
-    background-color: lightyellow;
 }
 
 .wrapper{
     margin: 0 12%;
+}
+
+.debug .container{
+    background-color: #8a2be291;
+    height: 850px;
+}
+.container{
+    margin: 0 20%;
+}
+
+.debug .col-30{
+    height: 600px;
+}
+.col-30{
+    width: 30%;
 }
 
 /********* HEADER **********/
@@ -46,6 +60,9 @@ body{
 }
 
 /********* MAIN ************/
+
+/* main-head */
+
 .main-head{
     background-color: var(--bg-main-head);
     height: 620px ;
@@ -78,6 +95,48 @@ body{
 .title-img{
     width: 65%;
 }
+
+/* main-mid */
+
+.debug .plan{
+    height: 60px;
+    background-color: aquamarine;
+}
+
+.plan{
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.debug .billing{
+    height: 50px;
+    background-color: bisque;
+}
+
+.billing{
+    width: 100%;
+}
+
+.debug .professional, .debug .standard, .debug .advanced{
+    background-color: brown;
+}
+
+.standard{
+    margin: 0 2.85rem;
+}
+
+.debug .enterprise{
+    background-color: dodgerblue;
+    height: 100px;
+}
+.enterprise{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+
+
+
 
 
 /********FOOTER **********/
