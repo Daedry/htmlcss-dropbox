@@ -109,7 +109,7 @@ a{
 
 .navbar{
     width: 100%;
-    margin: 0 0.5rem;
+    margin: 0 2rem;
 }
 
 .navbar>.col-45{
@@ -136,10 +136,8 @@ ul.inline-list>li{
 
 .menu-left{
     padding: 1.5rem;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
-
-
 
 .text-right{
     text-align: right;
@@ -160,8 +158,9 @@ ul.inline-list>li{
 }
 
 .title{
-    margin-top: 4rem;
+    padding-top: 4rem;
     width: 100%;
+    font-size: 68px;
 }
 
 .debug .sub-title{
@@ -170,7 +169,11 @@ ul.inline-list>li{
 }
 
 .sub-title{
-    width: 35%;
+    margin-right: 3rem;
+}
+
+.sub-title>p, .title-img{
+    margin: 2rem 0;
 }
 
 .debug .title-img {
@@ -179,8 +182,10 @@ ul.inline-list>li{
 }
 
 .title-img{
-    width: 65%;
+    width: 100%;
 }
+
+ 
 
 /* main-mid */
 
