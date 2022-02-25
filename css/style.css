@@ -1,17 +1,29 @@
+:root{
+    --bg-main-head: #B4D0E7;
+    --btn-color:#0061FF;
+    --main-text: #282828;
+    --nav-text:#2F2F2F;
+    --title-main-bot:#61082B;
+     --text:#686868;
+    --footer-text:#F5F5F5;
+    --white: #FFF;
+}
+
 /* COMMON */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root{
-    --bg-main-head: #B4D0E7;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
     width: 1536px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--nav-text);
 }
 
 /* UTILITY */
@@ -50,6 +62,25 @@ body{
     width: 18%;
 }
 
+.col-50{
+    width: 50%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-40{
+    width: 40%;
+}
+.col-45{
+    width: 45%;
+}
+
+.col-60{
+    width: 60%;
+}
+
 .m-5{
     margin: 0 5%;
 }
@@ -62,6 +93,14 @@ body{
     margin-right: 2%;
 }
 
+.btn{
+    padding: 0.3rem 0.75rem;
+    background-color: var(--btn-color);
+    color: var(--white);
+    font-size: 0.9rem;
+}
+
+
 /********* HEADER **********/
 
 .debug .navbar{
@@ -70,6 +109,40 @@ body{
 
 .navbar{
     width: 100%;
+    margin: 0 0.5rem;
+}
+
+.navbar>.col-45{
+    margin-right:4%;
+}
+
+ul.inline-list{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.inline-list>li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.logo>img{
+    vertical-align: sub;
+}
+
+.navbar>div{
+    display: inline-block;
+}
+
+.menu-left{
+    padding: 1.5rem;
+    margin-right: 100px;
+}
+
+
+
+.text-right{
+    text-align: right;
 }
 
 /********* MAIN ************/
@@ -327,5 +400,4 @@ body{
 
 .footer-bot{
     width: 200px;
-    margin-top: ;
 }
