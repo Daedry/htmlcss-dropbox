@@ -4,9 +4,12 @@
     --main-text: #282828;
     --nav-text:#2F2F2F;
     --title-main-bot:#61082B;
-     --text:#686868;
+    --text:#686868;
     --footer-text:#F5F5F5;
     --white: #FFF;
+    --border: #E5E5E7;
+    --main-mid-text-color:#72818D;
+
 }
 
 /* COMMON */
@@ -18,13 +21,176 @@
 }
 
 body{
-    width: 1536px;
+    /* width: 1536px; */
 }
 
 a{
     text-decoration: none;
     color: var(--nav-text);
 }
+
+/* debug */
+
+.debug .wrapper{
+    height: 640px;
+}
+
+.debug .container{
+    background-color: #8a2be291;
+}
+
+
+
+/* debug HEADER */
+
+.debug .navbar{
+    height: 70px;
+}
+
+/*debug MAIN*/
+
+/* debug main-head */
+
+
+.debug .title{
+  height: 100px;
+  background-color: orangered;
+}
+
+.debug .sub-title{
+    height: 456px;
+    background-color: orange;
+}
+
+.debug .title-img {
+    height: 479px;
+    background-color: lightgreen;
+}
+
+/* main-mid */
+
+.debug .plan{
+    height: 60px;
+    background-color: aquamarine;
+}
+
+.debug .billing{
+    height: 50px;
+    background-color: bisque;
+}
+
+.debug .professional, .debug .standard, .debug .advanced{
+    background-color: brown;
+    height: 600px;
+}
+
+.debug .enterprise{
+    background-color: dodgerblue;
+    height: 100px;
+}
+
+/* debug main-parner */
+
+.debug .img-area{
+    height: 450px;
+    background-color: aqua;
+}
+
+.debug .text-area{
+    height: 250px;
+    background-color: darksalmon;
+}
+
+/* debug operations */
+
+.debug .text-operation{
+    height: 70px;
+    background-color: rgb(32, 83, 124);
+}
+
+.debug .top-img{
+    height: 300px;
+    background-color: darkgoldenrod;
+}
+
+.debug .bot-text{
+    height: 300px;
+    background-color: cadetblue;
+}
+
+/* debug buisness */
+
+.debug .buisness-title{
+    height: 100px;
+    background-color: rgb(226, 43, 195);
+}
+
+.debug .box{
+    background-color: firebrick;
+}
+
+.debug .img-4{
+    background-color: blue;
+    height: 506px;
+}
+
+.debug .designit, .debug .asu, .debug .uf,.debug .topps{
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.debug .box-text{
+    height: 506px;
+    background-color: crimson;
+}
+
+.debug .box-title{
+    background-color: darkcyan;
+    height: 100px;
+}
+
+.debug .box-bot{
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+.debug .box-bot-title{
+    background-color: darkseagreen;
+    height: 250px;
+}
+
+.debug .requests{
+    background-color: blanchedalmond;
+    height: 100px;
+}
+
+.debug .question{
+    height: 400px;
+    background-color: chocolate;
+}
+
+/* debug footer */
+
+.debug .informations{
+    background-color: rgb(37, 71, 90);
+    height: 600px;
+}
+
+.debug .pack{
+    background-color: black;
+    height: 400px;
+}
+
+.debug .dropbox, .debug .prodotti, .debug .azienda, .debug .supporto, .debug .community{
+    background-color: rgb(107, 37, 37);
+    height: 400px;
+}
+
+.debug .footer-bot{
+    background-color: black;
+    height: 100px;
+}
+
 
 /* UTILITY */
 
@@ -38,16 +204,8 @@ a{
     float: left;
 }
 
-.debug .wrapper{
-    height: 640px;
-}
-
 .wrapper{
     margin: 0 12%;
-}
-
-.debug .container{
-    background-color: #8a2be291;
 }
 
 .container{
@@ -89,8 +247,16 @@ a{
     margin-top: 3rem;
 }
 
+.m-t-1_5{
+    margin-top: 1.5rem;
+}
+
 .m-d{
     margin-right: 2%;
+}
+
+.m-l-1_5{
+    margin-left: 1.5rem;
 }
 
 .btn{
@@ -103,17 +269,10 @@ a{
 
 /********* HEADER **********/
 
-.debug .navbar{
-    height: 70px;
-}
-
 .navbar{
     width: 100%;
-    margin: 0 2rem;
-}
-
-.navbar>.col-45{
-    margin-right:4%;
+    padding-left:0.5rem; 
+    position: relative;
 }
 
 ul.inline-list{
@@ -141,6 +300,9 @@ ul.inline-list>li{
 
 .text-right{
     text-align: right;
+    position: absolute;
+    right: 0px;
+    top: 22px;
 }
 
 /********* MAIN ************/
@@ -152,20 +314,10 @@ ul.inline-list>li{
     height: 620px ;
 }
 
-.debug .title{
-  height: 100px;
-  background-color: orangered;
-}
-
 .title{
     padding-top: 4rem;
     width: 100%;
     font-size: 68px;
-}
-
-.debug .sub-title{
-    height: 456px;
-    background-color: orange;
 }
 
 .sub-title{
@@ -176,11 +328,6 @@ ul.inline-list>li{
     margin: 2rem 0;
 }
 
-.debug .title-img {
-    height: 479px;
-    background-color: lightgreen;
-}
-
 .title-img{
     width: 100%;
 }
@@ -189,39 +336,95 @@ ul.inline-list>li{
 
 /* main-mid */
 
-.debug .plan{
-    height: 60px;
-    background-color: aquamarine;
-}
-
 .plan{
     width: 100%;
-    margin-top: 5rem;
-}
-
-.debug .billing{
-    height: 50px;
-    background-color: bisque;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-size: 33px;
 }
 
 .billing{
     width: 100%;
 }
 
-.debug .professional, .debug .standard, .debug .advanced{
-    background-color: brown;
-    height: 600px;
+.billing>span{
+    margin-right: 1rem;
 }
 
-.debug .enterprise{
-    background-color: dodgerblue;
-    height: 100px;
+.top-text{
+    text-align: center;
+    margin-top: 2rem;
+    border: 1px solid var(--border);
+    padding: 0.4rem;
 }
+
+.col{
+    border: 1px solid var(--border);
+}
+
+.price{
+    margin-top: 1rem;
+}
+
+.duration{
+    color: var(--main-mid-text-color);
+    margin-top: 0.5rem;
+}
+
+.col>ul{
+    list-style: none;
+    margin-top: 2.5rem;
+}
+
+.info>li, .points>ul>li{
+    margin-top: 1rem;
+}
+
+.buy-now>p{
+    display: inline-block;
+}
+
+.buy-now>a{
+    color: var(--btn-color);
+    text-decoration: underline;
+}
+
+.line{
+    width: 55px;
+    color: var(--border);
+}
+
+.points>ul{
+    list-style: none;
+}
+
+.check{
+    color: var(--btn-color);
+}
+
+
 .enterprise{
     width: 100%;
     margin-top: 2.5rem;
 }
 
+.title-bot{
+    display:inline-block;
+    width: 60%;
+}
+
+.contact{
+    padding-left:4.5rem;
+    padding-right:4.5rem;
+}
+
+.p-enterprise{
+    margin-bottom: 1.5rem;
+}
+
+.col-h{
+    height: 950px;
+}
 /* main-parner */
 
 .main-partner .container{
@@ -232,18 +435,8 @@ ul.inline-list>li{
     margin-top: 4rem;
 }
 
-.debug .img-area{
-    height: 450px;
-    background-color: aqua;
-}
-
 .img-area{
     width: 450px;
-}
-
-.debug .text-area{
-    height: 250px;
-    background-color: darksalmon;
 }
 
 .text-area{
@@ -251,58 +444,27 @@ ul.inline-list>li{
     width: 400px;
 }
 
-/* operations */
-
-.debug .text-operation{
-    height: 70px;
-    background-color: rgb(32, 83, 124);
+.down-arrow{
+    font-size: 30px;
 }
+/* operations */
 
 .text-operation{
     width: 100%;
 }
 
-.debug .top-img{
-    height: 300px;
-    background-color: darkgoldenrod;
-}
-
-.debug .bot-text{
-    height: 300px;
-    background-color: cadetblue;
-}
-
 /* buisness */
-
-.debug .buisness-title{
-    height: 100px;
-    background-color: rgb(226, 43, 195);
-}
 
 .buisness-title{
     width: 400px;
-}
-
-.debug .box{
-    background-color: firebrick;
 }
 
 .box{
     width: 100%;
 }
 
-.debug .img-4{
-    background-color: blue;
-    height: 506px;
-}
-
 .img-4{
     width: 30%;
-}
-
-.debug .designit, .debug .asu, .debug .uf,.debug .topps{
-    background-color: bisque;
-    border: 1px solid black;
 }
 
 .designit, .asu, .uf, .topps{
@@ -310,36 +472,16 @@ ul.inline-list>li{
     height: 50%;
 }
 
-.debug .box-text{
-    height: 506px;
-    background-color: crimson;
-}
-
 .box-text{
     width: 40%;
-}
-
-.debug .box-title{
-    background-color: darkcyan;
-    height: 100px;
 }
 
 .box-title{
     width: 100%;
 }
 
-.debug .box-bot{
-    background-color: cornflowerblue;
-    height: 300px;
-}
-
 .box-bot{
     width: 100%;
-}
-
-.debug .box-bot-title{
-    background-color: darkseagreen;
-    height: 250px;
 }
 
 .box-bot-title{
@@ -353,18 +495,8 @@ ul.inline-list>li{
     margin-left: 15%;
 }
 
-.debug .requests{
-    background-color: blanchedalmond;
-    height: 100px;
-}
-
 .requests{
     width: 400px;
-}
-
-.debug .question{
-    height: 400px;
-    background-color: chocolate;
 }
 
 .question{
@@ -374,33 +506,13 @@ ul.inline-list>li{
 
 /********FOOTER **********/
 
-.debug .informations{
-    background-color: rgb(37, 71, 90);
-    height: 600px;
-}
-
 .informations{
     width: 100%;
-}
-
-.debug .pack{
-    background-color: black;
-    height: 400px;
 }
 
 .pack{
     width: 80%;
     margin: 10%;
-}
-
-.debug .dropbox, .debug .prodotti, .debug .azienda, .debug .supporto, .debug .community{
-    background-color: rgb(107, 37, 37);
-    height: 400px;
-}
-
-.debug .footer-bot{
-    background-color: black;
-    height: 100px;
 }
 
 .footer-bot{
