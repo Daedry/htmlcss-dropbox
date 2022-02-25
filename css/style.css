@@ -332,6 +332,9 @@ ul.inline-list>li{
     width: 100%;
 }
 
+.down-arrow{
+    font-size: 30px;
+}
  
 
 /* main-mid */
@@ -425,6 +428,7 @@ ul.inline-list>li{
 .col-h{
     height: 950px;
 }
+
 /* main-parner */
 
 .main-partner .container{
@@ -432,21 +436,29 @@ ul.inline-list>li{
 }
 
 .partner{
-    margin-top: 4rem;
+    margin-top: 7rem;
 }
 
-.img-area{
+.img-area>img{
     width: 450px;
 }
 
 .text-area{
-    margin-left: 21px;
     width: 400px;
+    font-size: 15px;
+    margin-left: 3.5rem;
 }
 
-.down-arrow{
-    font-size: 30px;
+.text-area>p{
+    margin: 2rem 0;
 }
+
+.partner a{
+    padding: 0.35rem 0.75rem;
+    border:1px solid var(--main-text);
+}
+
+
 /* operations */
 
 .text-operation{
