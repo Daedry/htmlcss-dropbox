@@ -251,6 +251,11 @@ a{
     margin-top: 1.5rem;
 }
 
+.m-l-r-2_5{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
 .m-d{
     margin-right: 2%;
 }
@@ -447,6 +452,7 @@ ul.inline-list>li{
     width: 400px;
     font-size: 15px;
     margin-left: 3.5rem;
+    margin-top: 2rem;
 }
 
 .text-area>p{
@@ -464,6 +470,19 @@ ul.inline-list>li{
 .text-operation{
     width: 100%;
 }
+
+.top-img>img, .bot-text{
+    width: 100%;
+}
+
+.bot-text>p{
+    margin: 1rem 0;
+    
+}
+
+
+    
+
 
 /* buisness */
 
