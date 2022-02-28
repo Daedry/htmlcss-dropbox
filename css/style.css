@@ -51,8 +51,6 @@ a{
     background-color: #8a2be291;
 }
 
-
-
 /* debug HEADER */
 
 .debug .navbar{
@@ -195,7 +193,6 @@ a{
     height: 100px;
 }
 
-
 /* UTILITY */
 
 .row::after{
@@ -216,31 +213,40 @@ a{
     margin: 0 20%;
 }
 
-.col-30{
-    width: 30%;
+.col-10{
+    width: 10%;
 }
 
 .col-20{
     width: 18%;
 }
 
-.col-50{
-    width: 50%;
-}
-
-.col-100{
-    width: 100%;
+.col-30{
+    width: 30%;
 }
 
 .col-40{
     width: 40%;
 }
+
 .col-45{
     width: 45%;
 }
 
+.col-50{
+    width: 50%;
+}
+
 .col-60{
     width: 60%;
+}
+
+.col-90{
+    width: 90%;
+}
+
+.col-100{
+    width: 100%;
 }
 
 .m-5{
@@ -255,6 +261,15 @@ a{
     margin-top: 1.5rem;
 }
 
+.m-t-2{
+    margin-top:2rem;
+}
+
+.m-l-1_5-r-1{
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
 .m-l-r-2_5{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -266,6 +281,10 @@ a{
 
 .m-l-1_5{
     margin-left: 1.5rem;
+}
+
+.m-b-3{
+    margin-bottom: 3rem;
 }
 
 .w-50{
@@ -282,7 +301,7 @@ a{
 }
 
 .btn{
-    padding: 0.3rem 0.75rem;
+    padding: 0.3rem 2rem;
     background-color: var(--btn-color);
     color: var(--white);
     font-size: 0.9rem;
@@ -295,6 +314,15 @@ a{
 .bor-b{
     border-bottom: 1px solid var(--boreder-question-secondary);
 }
+
+.fz-14{
+    font-size: 14px;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
 
 /********* HEADER **********/
 
@@ -348,7 +376,7 @@ ul.inline-list>li{
 .title{
     padding-top: 4rem;
     width: 100%;
-    font-size: 68px;
+    font-size: 66px;
 }
 
 .sub-title{
@@ -489,7 +517,6 @@ ul.inline-list>li{
     border:1px solid var(--main-text);
 }
 
-
 /* operations */
 
 .text-operation{
@@ -615,8 +642,6 @@ ul.inline-list>li{
     background-color: var(--white);
 }
 
-
-
 /* questions */
 
 .questions .container{
@@ -640,9 +665,8 @@ ul.inline-list>li{
 }
 
 .domande>.fa-solid{
-    margin-left: 350px;
+    margin-left: 300px;
 }
-
 
 /********FOOTER **********/
 
@@ -666,7 +690,6 @@ ul.inline-list>li{
 }
 
 .pack li{
-    font-weight: 500;
     list-style:none;
     margin: 0.7rem 0;
 }
@@ -676,8 +699,4 @@ ul.inline-list>li{
     border-top: 1px solid var(--border-footer);
     padding: 4rem 0 3rem;
     color: var(--footer-bot-text);
-}
-
-.footer-bot>.fa-care-up{
-
 }
